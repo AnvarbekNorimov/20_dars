@@ -1,0 +1,98 @@
+.foooter__hover {
+  margin-top: 150px;
+  background-image: url("../img/фон.svg");
+  background-size: cover;
+  width: 1289px;
+  height: 350px;
+  margin-right: 83px;
+  position: relative;
+  right: 97px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 30px;
+  display: flex;
+  .foooter__hover-left {
+    padding: 30px 100px;
+  }
+}
+
+.foooter__hover-reight {
+  .foooter__hover-reight-text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    color: #ffffff;
+    width: 500px;
+    height: 112px;
+    margin-top: 50px;
+  }
+  .foooter__hover-reight-textera {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #c3c3c3;
+  }
+}
+
+.foooter__hover-button {
+  width: 240px;
+  height: 66px;
+  background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
+  box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+  border-radius: 36px;
+  border: none;
+  .foooter__hover-button-text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.foooter__hover-button:active {
+  opacity: 0.2;
+  transform: scale("1.03");
+  background: linear-gradient(90deg, #cce7dc 0%, #cf3bca 96.96%);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  ul li {
+    margin: 15px 0;
+    a {
+      color: black;
+    }
+  }
+  li:nth-child(1) {
+    font-weight: 960;
+    font-size: 18px;
+    color: black;
+  }
+}
+
+.foooter_border {
+  margin-top: 40px;
+  border: 2px solid #c0c9d7;
+  border-radius: 36px;
+  width: 1389px;
+  margin-right: 83px;
+  position: relative;
+  right: 140px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 30px;
+}
+.foooter_border-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  color: #1f2428;
+}
